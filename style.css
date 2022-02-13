@@ -7,7 +7,21 @@ body{
     --main-color:#242f51
 }
 
-  
+
+/*========================================================
+ INDEX OF  
+ =======
+ 1) BASIC 
+ 2) HEADER 
+ 3) HERO
+ =========================================================*/
+
+/*========================================================
+1) BASIC
+=========================================================*/   
+p{
+    margin: 0;
+}
 .mybtn{
     background-color: #2500f9;
     color: #fff;
@@ -21,18 +35,13 @@ body{
     color: #fff;
 }
 /*========================================================
- INDEX OF  
- =======
- 1) HEADER 
- 2) Banner
- =========================================================*/
-/*========================================================
-1) HEADER
+2) HEADER
 =========================================================*/
 header{
 height: 135px;
 display: flex;
 align-items: center;
+
 }
 header .navbar-brand{
     font-size: 30px;
@@ -50,4 +59,43 @@ header .nav-link{
 header .nav-link:hover,header .nav-link.active{
     color: #fcae61;
 
+}
+/*========================================================
+2) HERO
+=========================================================*/
+#hero{
+    height: 90vh;
+    background: url('assets/img/herobg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#hero .htop{
+    background-color: #e2eaed;
+}
+#hero .htop i{
+    background-color: #feaa25;
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 12px;
+}
+#hero .htop p{
+    color: var(--main-color);
+}
+#hero h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 30px 0px;
+}
+#hero p{
+    color: #616368;
+    font-size: 18px;
+}
+#hero .hbbox{
+    margin: 30px 0px;
+}
+#hero .screenimg{
+    width: 60%;
 }
